@@ -145,6 +145,18 @@ span p {
   display: flex;
   justify-content: center;
 }
+
+.card {
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.card a.btn {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .serviciosMain {
     display: flex;
