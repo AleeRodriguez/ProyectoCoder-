@@ -1,0 +1,19 @@
+.fondoMain{
+    background-image: url(../imagenes/fondoindex.png);
+    .serviciosMain{
+        display: flex;
+        width: 100%;}
+        .card{
+            margin: 1rem;
+            margin-top: 1rem;
+            margin-right: 2rem;
+            display: flex;}
+}
+@media(max-width: 576px){
+    .serviciosMain{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
