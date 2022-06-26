@@ -223,6 +223,10 @@ span p {
     display: none;
   }
 }
+.header {
+  width: 100vw;
+}
+
 .colornav {
   background: linear-gradient(180deg, rgb(9, 17, 121) 15%, rgb(0, 212, 255) 100%) !important;
 }
