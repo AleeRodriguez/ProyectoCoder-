@@ -9,7 +9,15 @@
             margin-right: 2rem;
             display: flex;}
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    &.hover{
+        
+    }
+}
 @media(max-width: 576px){
+
     .serviciosMain{
         display: flex;
         flex-direction: column;

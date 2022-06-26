@@ -9,6 +9,10 @@
     font-family: Arial;
     font-weight: bold;
 }
+.nav:active{
+    font-weight: bold;
+    background-color: gray;
+}
 .nav-item:hover{
         transform: translateY(2px);
         box-shadow: 2px 0;
